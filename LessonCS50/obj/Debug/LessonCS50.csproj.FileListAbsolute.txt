@@ -4,3 +4,9 @@ D:\LessonCS50\LessonCS50\LessonCS50\bin\Debug\LessonCS50.pdb
 D:\LessonCS50\LessonCS50\LessonCS50\obj\Debug\LessonCS50.csprojResolveAssemblyReference.cache
 D:\LessonCS50\LessonCS50\LessonCS50\obj\Debug\LessonCS50.exe
 D:\LessonCS50\LessonCS50\LessonCS50\obj\Debug\LessonCS50.pdb
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\bin\Debug\LessonCS50.exe.config
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\bin\Debug\LessonCS50.exe
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\bin\Debug\LessonCS50.pdb
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\obj\Debug\LessonCS50.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\obj\Debug\LessonCS50.exe
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50\obj\Debug\LessonCS50.pdb
