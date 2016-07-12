@@ -96,6 +96,11 @@ namespace LessonCS50
 			}
 			return x1;
 		}
+		public int get_fun_switch()
+		{
+			Console.WriteLine("Введите число: ");
+			return Convert.ToInt32(Console.ReadLine());
+		}
 		/*
 		 * Перевод с фаренгейтов на цельсии
 		 */ 
