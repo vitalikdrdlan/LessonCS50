@@ -3,27 +3,25 @@
  * Пользователь: Vitaly
  * Дата: 12.07.2016
  * Время: 12:24
- * 
- * Для изменения этого шаблона используйте меню "Инструменты | Параметры | Кодирование | Стандартные заголовки".
  */
 using System;
 
 namespace LessonCS50
 {
 	/// <summary>
-	/// Description of LessonCS50_1 - это результаты работы перой недели лекций CS50.
-	/// Чтобы делать такие коменты https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
+	/// LessonCS50_1 - это класс сделан в результате работы перой недели лекций CS50.
+	/// Чтобы делать такие коменты, которые вы сейчас видите https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
 	/// </summary>
 	public class LessonCS50_1
 	{
 		/// <summary>
-		/// Конструктор класса
+		/// Конструктор класса LessonCS50_1
 		/// </summary>
 		public LessonCS50_1()
 		{
 		}
 		/// <summary>
-		/// Метод калькулятора (сумма)
+		/// Метод работы калькулятора (только умеет суммировать)
 		/// </summary>
 		public int fun_input_output()
 		{
@@ -46,7 +44,7 @@ namespace LessonCS50
 			return 1;
 		}
 			/// <summary>
-			/// Метод который использует цыклы
+			/// Метод, который использует цыклы
 			/// </summary>
 		public int fun_loops()
 		{
@@ -70,7 +68,7 @@ namespace LessonCS50
 			return 1;
 		}
 		/// <summary>
-		/// Метод который использует switch
+		/// Метод, который использует switch
 		/// </summary>
 		public int fun_switch(int x1)
 		{
@@ -97,13 +95,16 @@ namespace LessonCS50
 			}
 			return x1;
 		}
+		/// <summary>
+		/// Метод для ввода данных в метод, который использует switch
+		/// </summary>
 		public int get_fun_switch()
 		{
 			Console.WriteLine("Введите число: ");
 			return Convert.ToInt32(Console.ReadLine());
 		}
 		/// <summary>
-		/// Метод который переводит с фаренгейтов на цельсии
+		/// Метод, который переводит с фаренгейтов на цельсии
 		/// </summary>
 		public float F2C(float x1)
 		{
@@ -111,6 +112,9 @@ namespace LessonCS50
 			Console.WriteLine("Значение {0} фаренгейтов будет {1:f2} по цельсию!",x1,x2);
 			return x2;
 		}
+		/// <summary>
+		/// Метод для ввода данных в метод, который переводит с фаренгейтов на цельсии
+		/// </summary>
 		public float getF2C()
 		{
 			Console.WriteLine("Введите значение фаренгейтов: ");

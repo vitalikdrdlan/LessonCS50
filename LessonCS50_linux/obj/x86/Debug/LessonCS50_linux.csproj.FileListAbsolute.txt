@@ -1,0 +1,5 @@
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50_linux\obj\x86\Debug\LessonCS50_linux.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50_linux\bin\Debug\LessonCS50_linux.exe
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50_linux\bin\Debug\LessonCS50_linux.pdb
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50_linux\obj\x86\Debug\LessonCS50_linux.exe
+C:\Users\Vitaly\Documents\LessonCS50\LessonCS50_linux\obj\x86\Debug\LessonCS50_linux.pdb
