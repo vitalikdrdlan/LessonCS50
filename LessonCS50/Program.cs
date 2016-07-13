@@ -7,7 +7,7 @@
  * Для изменения этого шаблона используйте меню "Инструменты | Параметры | Кодирование | Стандартные заголовки".
  */
 using System;
-using LessonCS50;
+using LessonCS50;  
 
 namespace LessonCS50
 {
@@ -19,7 +19,7 @@ namespace LessonCS50
 			//CS50.fun_input_output();
 			//CS50.fun_loops();
 			CS50.fun_switch(CS50.get_fun_switch());
-			CS50.F2C(CS50.getF2C());
+			CS50..F2C(CS50.getF2C());
 			Console.ReadKey(true);
 		}	
 	}

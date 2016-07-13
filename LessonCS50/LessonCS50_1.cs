@@ -11,19 +11,20 @@ using System;
 namespace LessonCS50
 {
 	/// <summary>
-	/// Description of LessonCS50_1.
+	/// Description of LessonCS50_1 - это результаты работы перой недели лекций CS50.
+	/// Чтобы делать такие коменты https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
 	/// </summary>
 	public class LessonCS50_1
 	{
-		/*
-		 * Конструктор класса
-		 */ 
+		/// <summary>
+		/// Конструктор класса
+		/// </summary>
 		public LessonCS50_1()
 		{
 		}
-		/*
-		 * калькулятор (сумма)
-		 */
+		/// <summary>
+		/// Метод калькулятора (сумма)
+		/// </summary>
 		public int fun_input_output()
 		{
 			Console.WriteLine("Введи число X:");
@@ -44,9 +45,9 @@ namespace LessonCS50
 			}
 			return 1;
 		}
-			/*
-			 * цыкл
-			 */
+			/// <summary>
+			/// Метод который использует цыклы
+			/// </summary>
 		public int fun_loops()
 		{
 			int x1=0;
@@ -68,9 +69,9 @@ namespace LessonCS50
 			while (x1<3);
 			return 1;
 		}
-		/*
-		 * switch
-		 */
+		/// <summary>
+		/// Метод который использует switch
+		/// </summary>
 		public int fun_switch(int x1)
 		{
 			switch (x1) 
@@ -101,9 +102,9 @@ namespace LessonCS50
 			Console.WriteLine("Введите число: ");
 			return Convert.ToInt32(Console.ReadLine());
 		}
-		/*
-		 * Перевод с фаренгейтов на цельсии
-		 */ 
+		/// <summary>
+		/// Метод который переводит с фаренгейтов на цельсии
+		/// </summary>
 		public float F2C(float x1)
 		{
 			float x2 = 5.0f / 9.0f * (x1 - 32.0f);
