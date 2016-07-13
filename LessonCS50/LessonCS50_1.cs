@@ -43,9 +43,9 @@ namespace LessonCS50
 			}
 			return 1;
 		}
-			/// <summary>
-			/// Метод, который использует цыклы
-			/// </summary>
+		/// <summary>
+		/// Метод, который использует цыклы
+		/// </summary>
 		public int fun_loops()
 		{
 			int x1=0;
