@@ -12,7 +12,8 @@ namespace LessonCS50
 {
 	/// <summary>
 	/// Description of LessonCS50_1 - это результаты работы перой недели лекций CS50.
-	/// Чтобы делать такие коменты https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
+	/// Чтобы делать такие коменты 
+    /// https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
 	/// </summary>
 	public class LessonCS50_1
 	{
