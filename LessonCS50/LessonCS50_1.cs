@@ -6,18 +6,18 @@
  */
 using System;
 
-namespace LessonCS50
+namespace LessonCS50_1
 {
 	/// <summary>
 	/// LessonCS50_1 - это класс сделан в результате работы перой недели лекций CS50.
 	/// Чтобы делать такие коменты, которые вы сейчас видите https://msdn.microsoft.com/ru-ru/library/5ast78ax.aspx
 	/// </summary>
-	public class LessonCS50_1
+	public class LCS50_1
 	{
 		/// <summary>
 		/// Конструктор класса LessonCS50_1
 		/// </summary>
-		public LessonCS50_1()
+		public LCS50_1()
 		{
 		}
 		/// <summary>

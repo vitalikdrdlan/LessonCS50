@@ -5,7 +5,8 @@
  * Время: 21:38
  */
 using System;
-using LessonCS50;  
+using LessonCS50_1;
+using LessonCS50_2;
 
 namespace LessonCS50
 {
@@ -13,25 +14,26 @@ namespace LessonCS50
 	{
 		public static void Main(string[] args)
 		{
-			LessonCS50_1 CS50 = new LessonCS50_1();
+			LCS50_1 CS50_1 = new LCS50_1();
+			LCS50_2 CS50_2 = new LCS50_2();
 			/* Console.WriteLine("Выбирите какую функцию вы хотите запустить, нажмите от 1-4 и Ентер");
 			int Key;
 			switch(Console.ReadKey())
 			{
 				case ConsoleKey.NumPad1:
-					CS50.fun_input_output();
+					CS50_1.fun_input_output();
 				break;
 				case 50:
-					CS50.fun_loops();
+					CS50_1.fun_loops();
 				break;
 				case 51:
-					CS50.fun_switch(CS50.get_fun_switch());
+					CS50_1.fun_switch(CS50.get_fun_switch());
 				break;
 				case 52:
-					CS50.F2C(CS50.getF2C());
+					CS50_1.F2C(CS50.getF2C());
 				break;
 				case 13:
-					CS50.F2C(CS50.getF2C());
+					CS50_1.F2C(CS50.getF2C());
 				break;
 				default:
 					{
@@ -40,7 +42,8 @@ namespace LessonCS50
 					break;
 			}
 			*/
-			CS50.F2C(CS50.getF2C());
+			CS50_1.F2C(CS50_1.getF2C());
+			CS50_2.Cript("GoodBY!");
 			Console.ReadKey(true);
 		}	
 	}

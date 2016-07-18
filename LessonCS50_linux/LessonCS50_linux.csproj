@@ -38,8 +38,8 @@
     </Compile>
     <Compile Include="..\LessonCS50\Program.cs">
       <Link>Program.cs</Link>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="LessonCS50_2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
