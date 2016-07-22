@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LessonCS50/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LessonCS50/LessonCS50_1.cs">
     <Files>
-      <File FileName="LessonCS50/LessonCS50_1.cs" Line="121" Column="1" />
-      <File FileName="LessonCS50/Program.cs" Line="22" Column="9" />
+      <File FileName="LessonCS50/LessonCS50_1.cs" Line="120" Column="56" />
+      <File FileName="LessonCS50_linux/LessonCS50_2.cs" Line="15" Column="18" />
+      <File FileName="LessonCS50/Program.cs" Line="46" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

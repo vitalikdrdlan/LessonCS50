@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Создано в SharpDevelop.
  * Пользователь: Vitaly
  * Дата: 12.07.2016
@@ -120,5 +120,16 @@ namespace LessonCS50_1
 			Console.WriteLine("Введите значение фаренгейтов: ");
 			return Convert.ToSingle(Console.ReadLine());
 		}
+		/// <summary>
+		/// Свойство для значения фаренгейтов
+		/// </summary>
+		/*public float tF
+		{
+			set
+			{
+				//if(value ) throw
+			}
+			get {}
+		}*/
 	}
 }

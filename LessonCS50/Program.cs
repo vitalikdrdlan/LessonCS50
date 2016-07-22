@@ -14,19 +14,47 @@ namespace LessonCS50
 	{
 		public static void Main(string[] args)
 		{
-			LCS50_1 CS50_1 = new LCS50_1();
-			LCS50_2 CS50_2 = new LCS50_2();
-			/* Console.WriteLine("Выбирите какую функцию вы хотите запустить, нажмите от 1-4 и Ентер");
-			int Key;
-			switch(Console.ReadKey())
+			string[] Params = new string[] 
 			{
-				case ConsoleKey.NumPad1:
-					CS50_1.fun_input_output();
+				"Выбирите какую функцию вы хотите запустить:",
+				"-h - команда помощи", 
+				"-f2f - функция, которая переводит в фаренгейты", 
+				"-fun_loops - функция, которая показывает как работают цыклы",
+				"-vstr - выводит текст вертикально, текст можно ввести вторым аргументом"
+			};
+			LCS50_1 CS50_1 = new LCS50_1();
+
+			if (args.Length <= 0) 
+			{
+				Console.WriteLine ("Вы не указали аргумент!");
+			} else 
+			switch(args[0])
+			{
+				case "-f2f":
+				CS50_1.F2C(CS50_1.getF2C());
 				break;
-				case 50:
-					CS50_1.fun_loops();
+			    case "-h":
+					for (int i=0; i < Params.Length; i++) 
+					{
+						Console.WriteLine ("{0}", Params[i].ToString());
+					} 
+					break;
+				case "-vstr":
+					if (args [1].Length <= 0) {
+						Console.WriteLine ("Вы не указали второй аргумент!");
+					} else {
+						// так как метод Cript() в класcе LCS50_2 статический, 
+						// то создавать объект класса нет надобности!
+						LCS50_2.vstr (args [1]);
+					}
+					break;
+				case "-s":
+					for (int i=0; i < 5000; i++) 
+					{
+					Console.WriteLine(args[i].ToString());
+					}
 				break;
-				case 51:
+			/*	case 51:
 					CS50_1.fun_switch(CS50.get_fun_switch());
 				break;
 				case 52:
@@ -35,16 +63,14 @@ namespace LessonCS50
 				case 13:
 					CS50_1.F2C(CS50.getF2C());
 				break;
+			*/	
+
 				default:
 					{
-						Console.WriteLine("Это число {0} НЕ в пределах существующих операции",Key);
+						Console.WriteLine("НЕТ такого параметра: {0}", args[0]);
 					}
 					break;
 			}
-			*/
-			CS50_1.F2C(CS50_1.getF2C());
-			CS50_2.Cript("GoodBY!");
-			Console.ReadKey(true);
 		}	
 	}
 }
